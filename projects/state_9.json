@@ -1,0 +1,19 @@
+{
+  "iteration": 9,
+  "idea": "diffusion models for protein folding",
+  "status": "execute",
+  "log": [],
+  "papers": [
+    "The impact of hydrodynamic interactions on protein folding rates depends on temperature",
+    "LaGDif: Latent Graph Diffusion Model for Efficient Protein Inverse Folding with Self-Ensemble",
+    "Diffusive Dynamics of the Reaction Coordinate for Protein Folding Funnels",
+    "Cooperativity and modularity in protein folding",
+    "Folding and escape of nascent proteins at ribosomal exit tunnel"
+  ],
+  "dataset": {
+    "name": "No dataset found"
+  },
+  "plan": "Use a PyTorch pipeline to apply diffusion models to protein folding using the dataset `No dataset found`.",
+  "notebook_path": "projects/diffusion-models-for-protein-folding/notebook.ipynb",
+  "score": 5.6
+}

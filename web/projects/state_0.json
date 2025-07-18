@@ -1,0 +1,17 @@
+{
+  "iteration": 0,
+  "idea": "sentiment analysis using natural language",
+  "status": "execute",
+  "log": [],
+  "failures": 0,
+  "papers": [
+    "Sentiment Identification in Code-Mixed Social Media Text (http://arxiv.org/abs/1707.01184v1)",
+    "A longitudinal sentiment analysis of Sinophobia during COVID-19 using large language models (http://arxiv.org/abs/2408.16942v1)",
+    "Emotional Analysis of Fashion Trends Using Social Media and AI: Sentiment Analysis on Twitter for Fashion Trend Forecasting (http://arxiv.org/abs/2505.00050v1)",
+    "Using objective words in the reviews to improve the colloquial arabic sentiment analysis (http://arxiv.org/abs/1709.08521v1)",
+    "Twitter Sentiment Analysis System (http://arxiv.org/abs/1807.07752v1)"
+  ],
+  "dataset": {
+    "name": "No dataset found"
+  }
+}

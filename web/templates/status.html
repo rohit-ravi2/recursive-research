@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pipeline Status</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Pipeline Status</h1>
+    <div id="status">Waiting for updates...</div>
+    <a href="/">Back to Home</a>
+    <script>
+        const socket = io();
+        socket.on("status", data => {
+            document.getElementById("status").innerText = data.status;
+        });
+    </script>
+</body>
+</html>

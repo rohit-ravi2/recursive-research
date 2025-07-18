@@ -1,0 +1,17 @@
+{
+  "iteration": 0,
+  "idea": "graph neural networks for drug discovery",
+  "status": "execute",
+  "log": [],
+  "failures": 1,
+  "papers": [
+    "Dr-COVID: Graph Neural Networks for SARS-CoV-2 Drug Repurposing (http://arxiv.org/abs/2012.02151v1)",
+    "CardiGraphormer: Unveiling the Power of Self-Supervised Learning in Revolutionizing Drug Discovery (http://arxiv.org/abs/2307.00859v4)",
+    "Few-shot link prediction via graph neural networks for Covid-19 drug-repurposing (http://arxiv.org/abs/2007.10261v1)",
+    "Learning Graph-Level Representation for Drug Discovery (http://arxiv.org/abs/1709.03741v2)",
+    "Graph Neural Networks in Modern AI-aided Drug Discovery (http://arxiv.org/abs/2506.06915v1)"
+  ],
+  "dataset": {
+    "name": "No dataset found"
+  }
+}

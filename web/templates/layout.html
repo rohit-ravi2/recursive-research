@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Recursive Research{% endblock %}</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td, th {
+        border: 1px solid #999;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #e0e0e0;
+    }
+    form button {
+        margin: 0 2px;
+        padding: 4px 8px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h3>
+            <a href="/">🏠 Home</a> |
+            <a href="/dashboard">📊 Dashboard</a>
+        </h3>
+        <hr>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

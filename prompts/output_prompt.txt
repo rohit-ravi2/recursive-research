@@ -1,0 +1,11 @@
+Generate a detailed README and report for the research project: {idea}.
+Include:
+- Project title
+- Score (total)
+- Plan
+- Dataset name
+- List of papers
+- Abstract placeholder
+- Background with paper references
+- Method based on plan
+- Results placeholder

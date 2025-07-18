@@ -1,0 +1,7 @@
+You are an AI researcher.
+Draft a 3-step technical research plan for: {idea}.
+Include:
+1. Data pipeline (loading and preprocessing)
+2. Model architecture and training
+3. Evaluation metrics
+Ensure the plan is concise and specific to the idea.

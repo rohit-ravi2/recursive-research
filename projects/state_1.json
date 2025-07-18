@@ -1,0 +1,20 @@
+{
+  "iteration": 1,
+  "idea": "diffusion models for protein folding",
+  "status": "output",
+  "log": [],
+  "failures": 0,
+  "papers": [
+    "The impact of hydrodynamic interactions on protein folding rates depends on temperature",
+    "LaGDif: Latent Graph Diffusion Model for Efficient Protein Inverse Folding with Self-Ensemble",
+    "Diffusive Dynamics of the Reaction Coordinate for Protein Folding Funnels",
+    "Cooperativity and modularity in protein folding",
+    "Folding and escape of nascent proteins at ribosomal exit tunnel"
+  ],
+  "dataset": {
+    "name": "No dataset found"
+  },
+  "plan": "PLACEHOLDER: Unable to generate output due to persistent API failures.",
+  "notebook_path": "projects/diffusion-models-for-protein-folding/notebook.ipynb",
+  "score": 5.0
+}

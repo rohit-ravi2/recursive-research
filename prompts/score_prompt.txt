@@ -1,0 +1,12 @@
+You are a research advisor. Rate the following research idea from 0–10 on:
+
+- Novelty
+- Feasibility
+- Impact
+
+Return only a **JSON object** with the following structure:
+{{"novelty": 8, "feasibility": 9, "impact": 7, "total": 8.0}}
+
+Do not include any explanation or comments.
+
+Idea: {idea}

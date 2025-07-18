@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recursive Research Factory</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🧠 Recursive Research Factory</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        <label for="topic">Research Topic:</label>
+        <input type="text" id="topic" name="topic" maxlength="100" required>
+        <button type="submit">Start Pipeline</button>
+    </form>
+    <a href="/dashboard">View Dashboard</a>
+</body>
+</html>

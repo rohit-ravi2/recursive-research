@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📚 Project Dashboard</h1>
+    <table>
+        <tr>
+            <th>Topic</th>
+            <th>Score</th>
+            <th>Status</th>
+            <th>Notebook</th>
+        </tr>
+        {% for project in projects %}
+        <tr>
+            <td>{{ project.idea[:40] }}{% if project.idea|length > 40 %}...{% endif %}</td>
+            <td>{{ project.score.total|float }}</td>
+            <td>{{ project.status }}</td>
+            <td><a href="/{{ project.notebook_path }}">Notebook</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back to Home</a>
+</body>
+</html>

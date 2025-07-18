@@ -1,0 +1,13 @@
+arxiv
+huggingface_hub
+requests
+flask
+flask-socketio
+nbformat
+gitpython
+retry
+langchain
+sentence-transformers
+faiss-cpu
+pytest
+rich
