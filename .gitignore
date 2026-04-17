@@ -1,2 +1,34 @@
 .env
 hsde/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Logs and runtime caches
+logs/*.log
+logs/*.jsonl
+data/cache/
+
+# OS
+.DS_Store
+
+# Large binary formats
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Secrets
+.env.*
+*.pem
+*.key
+credentials.json
