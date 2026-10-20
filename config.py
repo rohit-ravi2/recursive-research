@@ -17,7 +17,8 @@ LOGS_PATH = BASE_DIR / "logs"
 HISTORY_PATH = LOGS_PATH / "history.jsonl"
 STATE_FILE = BASE_DIR / "state.json"
 VECTOR_STORE_PATH = BASE_DIR / "vectorstore" / "faiss_projects"
-README_PATH = BASE_DIR / "README.md"
+# Auto-generated index of completed projects (README.md is hand-written).
+README_PATH = BASE_DIR / "PROJECTS_INDEX.md"
 
 # Configuration
 VECTOR_EMBED_MODEL = "all-MiniLM-L6-v2"
